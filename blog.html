@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/e0b0e8d538.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs For 2022</h1>
+    </section>
+
+
+
+    <!-- ---------Blog page content------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>Our Certificates & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet. Est minima pariatur rem enim delectus ex corporis quia ut culpa fugiat. Cum vitae doloribus et reprehenderit laudantium in reprehenderit consectetur!
+
+Sed fugit iusto utlam qui perferendis iusto At omnis dignissimos!</p>
+<br>
+<p>Lorem ipsum dolor sit amet. Est minima pariatur rem enim delectus ex corporis quia ut culpa fugiat. Cum vitae doloribus et reprehenderit laudantium in reprehenderit consectetur!
+
+  laborum ipsum non quia omnis ex iusto galisum est sequi deleniti At saepe odio et numquam accusamus ut adipisci numquam. Est aspernatur beatae sed esse quia eum exercitationem porro qui fuga neque sed saepe explicabo sit numquam quidem a suscipit tempora. Et tempora nostrum quo reprehenderit voluptas et magni voluptatum. Et quia quasi sit reiciendis qui asperiores odio est illo aliquid.
+    
+    Qui voluptatibus inventore qui perspiciatis autem ab alias ullam qui perferendis iusto At omnis dignissimos!</p>
+    <br>
+    <p>
+        Sed fugit iusto ut ipsum modi ut tempora unde ut placeat fugit et similique architecto ex voluptatem galisum? Et unde consectetur rem magni iste sed beatae illum quo veniam velit cum minima dolor eos animi consequatur. Ut adipisci voluptatem et aspernatur libero et accusantium quis aut consequatur explicabo.
+        
+        Eum laborum ipsum non quia omnis ex iusto galisum est sequi deleniti At saepe odio et numquam accusamus ut adipisci numquam. Est aspernatur beatae sed esse quia eum exercitationem porro qui fuga neque sed saepe explicabo sit numquam quidem a suscipit tempora. Et tempora nostrum quo reprehenderit voluptas et magni voluptatum. Et quia quasi sit reiciendis qui asperiores odio est illo aliquid.
+        
+        Qui voluptatibus inventore qui perspiciatis autem ab alias ullam qui perferendis iusto At omnis dignissimos!</p>
+           <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter email">
+                <textarea placeholder="Your comment" rows="5"></textarea>
+                <button type="submit" class="hero-btn red-btn">Post Comment</button>
+            </form>
+           </div> 
+    
+    
+    
+    
+    </div>
+            <div class="blog-right">
+                <h3>Post categories</h3>
+                <div>
+                    <span>Business analytics</span>
+                    <span>21</span>
+                   
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>25</span>
+                   
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>29</span>
+                   
+                </div>
+                <div>
+                    <span>Cmputer Science</span>
+                    <span>28</span>
+                   
+                </div>
+                <div>
+                    <span>Business administration</span>
+                    <span>22</span>
+                   
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+
+<!-- -------------foooter---------- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, novum simul an mel<br>. Ut his mutat melius invidunt. Inermis scriptorem ut mel, eu tantas verear ius. Te nam justo adipisci, enim perpetua evertitur mea id, feu.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart"></i> by Rabiya Nadeem</p>
+</section>
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
